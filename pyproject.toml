@@ -1,0 +1,20 @@
+[project]
+name = "ai-agent"
+version = "0.1.0"
+description = "A Streamlit research and technical blog drafting assistant powered by LangGraph and Gemini."
+readme = "README.md"
+authors = [
+    { name = "Ayush Paliwal", email = "ayushpaliwal1920@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.4.0",
+    "langchain-community>=0.4.2",
+    "langchain-google-genai>=4.4.0",
+    "langgraph>=1.2.11",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.63.0",
+    "google-genai>=1.0.0",
+]
+

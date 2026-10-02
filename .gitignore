@@ -1,0 +1,45 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+build/
+dist/
+wheels/
+*.egg-info/
+__pypackages__/
+.tox/
+.nox/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyright/
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter-generated files
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local credentials and Streamlit secrets
+.env
+.env.*
+!.env.example
+.envrc
+.streamlit/secrets.toml
+.streamlit/cache/
+
+# OS and editor artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Logs and temporary files
+*.log
+*.tmp
